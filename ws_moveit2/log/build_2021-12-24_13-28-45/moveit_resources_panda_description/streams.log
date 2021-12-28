@@ -1,0 +1,67 @@
+[0.020s] Invoking command in '/home/denmann99/ws_moveit2/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/denmann99/ws_moveit2/src/moveit_resources/panda_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description
+[0.339s] -- The C compiler identification is GNU 9.3.0
+[0.382s] -- The CXX compiler identification is GNU 9.3.0
+[0.385s] -- Check for working C compiler: /usr/bin/cc
+[0.435s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.435s] -- Detecting C compiler ABI info
+[0.489s] -- Detecting C compiler ABI info - done
+[0.504s] -- Detecting C compile features
+[0.505s] -- Detecting C compile features - done
+[0.508s] -- Check for working CXX compiler: /usr/bin/c++
+[0.565s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.566s] -- Detecting CXX compiler ABI info
+[0.624s] -- Detecting CXX compiler ABI info - done
+[0.633s] -- Detecting CXX compile features
+[0.633s] -- Detecting CXX compile features - done
+[0.663s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.681s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.681s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.882s] -- Configuring done
+[0.883s] -- Generating done
+[0.885s] -- Build files have been written to: /home/denmann99/ws_moveit2/build/moveit_resources_panda_description
+[0.890s] Invoked command in '/home/denmann99/ws_moveit2/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/denmann99/ws_moveit2/src/moveit_resources/panda_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description
+[0.892s] Invoking command in '/home/denmann99/ws_moveit2/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/denmann99/ws_moveit2/build/moveit_resources_panda_description -- -j12 -l12
+[0.917s] Invoked command in '/home/denmann99/ws_moveit2/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/denmann99/ws_moveit2/build/moveit_resources_panda_description -- -j12 -l12
+[0.938s] Invoking command in '/home/denmann99/ws_moveit2/build/moveit_resources_panda_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/denmann99/ws_moveit2/build/moveit_resources_panda_description
+[0.943s] -- Install configuration: "Release"
+[0.943s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_description
+[0.943s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_description
+[0.943s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.sh
+[0.944s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/ament_prefix_path.dsv
+[0.944s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.sh
+[0.944s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/environment/path.dsv
+[0.944s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.bash
+[0.944s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.sh
+[0.944s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.zsh
+[0.944s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/local_setup.dsv
+[0.944s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.dsv
+[0.944s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/ament_index/resource_index/packages/moveit_resources_panda_description
+[0.945s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig.cmake
+[0.945s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/cmake/moveit_resources_panda_descriptionConfig-version.cmake
+[0.946s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/package.xml
+[0.946s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes
+[0.947s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision
+[0.947s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/hand.stl
+[0.947s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link1.stl
+[0.947s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link7.stl
+[0.948s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/finger.stl
+[0.948s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link2.stl
+[0.948s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link0.stl
+[0.949s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link5.stl
+[0.949s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link3.stl
+[0.950s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link6.stl
+[0.950s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/collision/link4.stl
+[0.950s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual
+[0.951s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link5.dae
+[0.956s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link3.dae
+[0.956s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link0.dae
+[0.959s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link4.dae
+[0.961s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link2.dae
+[0.961s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link7.dae
+[0.961s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/hand.dae
+[0.961s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link6.dae
+[0.965s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/finger.dae
+[0.966s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/meshes/visual/link1.dae
+[0.968s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf
+[0.968s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_description/share/moveit_resources_panda_description/urdf/panda.urdf
+[0.978s] Invoked command in '/home/denmann99/ws_moveit2/build/moveit_resources_panda_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/denmann99/ws_moveit2/build/moveit_resources_panda_description

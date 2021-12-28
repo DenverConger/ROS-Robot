@@ -1,0 +1,121 @@
+[0.008s] Invoking command in '/home/denmann99/ws_moveit2/build/moveit_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/denmann99/ws_moveit2/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/denmann99/ws_moveit2/install/moveit_visual_tools
+[0.017s] -- Found moveit_common: 2.2.2 (/opt/ros/foxy/share/moveit_common/cmake)
+[0.018s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.035s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.035s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.225s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system 
+[0.228s] -- Found geometry_msgs: 2.0.4 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.250s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.256s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.300s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.319s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.372s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.434s] -- Found graph_msgs: 0.2.0 (/opt/ros/foxy/share/graph_msgs/cmake)
+[0.493s] -- Found moveit_core: 2.2.2 (/opt/ros/foxy/share/moveit_core/cmake)
+[0.738s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[0.858s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.859s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.860s] -- Found Threads: TRUE  
+[1.004s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[1.145s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.570s] -- Found moveit_ros_planning: 2.2.2 (/opt/ros/foxy/share/moveit_ros_planning/cmake)
+[2.574s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[2.804s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[3.296s] -- Found rviz_visual_tools: 4.0.3 (/home/denmann99/ws_moveit2/install/rviz_visual_tools/share/rviz_visual_tools/cmake)
+[3.389s] -- Setting OGRE_DIR to: '/opt/ros/foxy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[3.391s] -- Found OGRE
+[3.391s] --   static     : OFF
+[3.391s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[3.391s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.391s] --   media      : /opt/ros/foxy/opt/rviz_ogre_vendor/share/OGRE/Media
+[3.391s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[3.391s] -- OGRE_LIBRARY_DIRS: /opt/ros/foxy/opt/rviz_ogre_vendor/lib
+[3.391s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[3.392s] -- OGRE_PLUGIN_DIR: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/OGRE
+[3.392s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.392s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[3.392s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.392s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/foxy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[3.393s] -- Could not find freeimage library
+[3.405s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[3.409s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[3.462s] -- Found X11: /usr/include   
+[3.462s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.511s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.511s] -- Looking for gethostbyname
+[3.563s] -- Looking for gethostbyname - found
+[3.564s] -- Looking for connect
+[3.618s] -- Looking for connect - found
+[3.618s] -- Looking for remove
+[3.676s] -- Looking for remove - found
+[3.676s] -- Looking for shmat
+[3.723s] -- Looking for shmat - found
+[3.723s] -- Looking for IceConnectionNumber in ICE
+[3.849s] -- Looking for IceConnectionNumber in ICE - found
+[3.854s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[3.854s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[3.904s] -- Setting yaml-cpp_DIR to: '/opt/ros/foxy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/lib/cmake/yaml-cpp'
+[4.740s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.764s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.765s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.766s] -- Added test 'lint_cmake' to check CMake code style
+[4.767s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[4.768s] -- Added test 'xmllint' to check XML markup files
+[4.772s] -- Configuring done
+[4.912s] -- Generating done
+[4.914s] -- Build files have been written to: /home/denmann99/ws_moveit2/build/moveit_visual_tools
+[4.921s] Invoked command in '/home/denmann99/ws_moveit2/build/moveit_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/denmann99/ws_moveit2/src/moveit_visual_tools -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/denmann99/ws_moveit2/install/moveit_visual_tools
+[4.923s] Invoking command in '/home/denmann99/ws_moveit2/build/moveit_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/denmann99/ws_moveit2/build/moveit_visual_tools -- -j12 -l12
+[4.950s] [35m[1mScanning dependencies of target moveit_visual_tools[0m
+[5.084s] [ 16%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/moveit_visual_tools.cpp.o[0m
+[5.084s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_robot_state.cpp.o[0m
+[5.085s] [ 50%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools.dir/src/imarker_end_effector.cpp.o[0m
+[17.488s] [ 66%] [32m[1mLinking CXX shared library libmoveit_visual_tools.so[0m
+[17.800s] [ 66%] Built target moveit_visual_tools
+[17.807s] [35m[1mScanning dependencies of target moveit_visual_tools_demo[0m
+[17.863s] [ 83%] [32mBuilding CXX object CMakeFiles/moveit_visual_tools_demo.dir/src/moveit_visual_tools_demo.cpp.o[0m
+[26.056s] [100%] [32m[1mLinking CXX executable moveit_visual_tools_demo[0m
+[26.556s] [100%] Built target moveit_visual_tools_demo
+[26.564s] Invoked command in '/home/denmann99/ws_moveit2/build/moveit_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/denmann99/ws_moveit2/build/moveit_visual_tools -- -j12 -l12
+[26.582s] Invoking command in '/home/denmann99/ws_moveit2/build/moveit_visual_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/denmann99/ws_moveit2/build/moveit_visual_tools
+[26.587s] -- Install configuration: "Release"
+[26.587s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.sh
+[26.587s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/library_path.dsv
+[26.587s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/lib/libmoveit_visual_tools.so
+[26.588s] -- Set runtime path of "/home/denmann99/ws_moveit2/install/moveit_visual_tools/lib/libmoveit_visual_tools.so" to ""
+[26.588s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo
+[26.589s] -- Set runtime path of "/home/denmann99/ws_moveit2/install/moveit_visual_tools/lib/moveit_visual_tools/moveit_visual_tools_demo" to ""
+[26.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/include
+[26.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools
+[26.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/imarker_robot_state.h
+[26.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/imarker_end_effector.h
+[26.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/include/moveit_visual_tools/moveit_visual_tools.h
+[26.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/launch
+[26.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo_rviz.launch.py
+[26.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/launch/demo.rviz
+[26.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources
+[26.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.srdf
+[26.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/screenshot.png
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo.png
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/demo_mesh.stl
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/resources/rrbot.urdf
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/package_run_dependencies/moveit_visual_tools
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/parent_prefix_path/moveit_visual_tools
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.sh
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/ament_prefix_path.dsv
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.sh
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/environment/path.dsv
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.bash
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.sh
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.zsh
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/local_setup.dsv
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.dsv
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/ament_index/resource_index/packages/moveit_visual_tools
+[26.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport.cmake
+[26.591s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/export_moveit_visual_toolsExport-release.cmake
+[26.591s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_targets-extras.cmake
+[26.591s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.591s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig.cmake
+[26.591s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/cmake/moveit_visual_toolsConfig-version.cmake
+[26.591s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_visual_tools/share/moveit_visual_tools/package.xml
+[26.593s] Invoked command in '/home/denmann99/ws_moveit2/build/moveit_visual_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/denmann99/ws_moveit2/build/moveit_visual_tools

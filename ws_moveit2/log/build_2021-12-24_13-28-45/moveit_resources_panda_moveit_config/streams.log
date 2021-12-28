@@ -1,0 +1,96 @@
+[0.015s] Invoking command in '/home/denmann99/ws_moveit2/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description:/opt/ros/foxy /usr/bin/cmake /home/denmann99/ws_moveit2/src/moveit_resources/panda_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config
+[0.055s] -- The C compiler identification is GNU 9.3.0
+[0.090s] -- The CXX compiler identification is GNU 9.3.0
+[0.093s] -- Check for working C compiler: /usr/bin/cc
+[0.137s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.138s] -- Detecting C compiler ABI info
+[0.181s] -- Detecting C compiler ABI info - done
+[0.189s] -- Detecting C compile features
+[0.189s] -- Detecting C compile features - done
+[0.191s] -- Check for working CXX compiler: /usr/bin/c++
+[0.241s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.242s] -- Detecting CXX compiler ABI info
+[0.329s] -- Detecting CXX compiler ABI info - done
+[0.338s] -- Detecting CXX compile features
+[0.339s] -- Detecting CXX compile features - done
+[0.340s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.357s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.357s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.536s] -- Configuring done
+[0.537s] -- Generating done
+[0.538s] -- Build files have been written to: /home/denmann99/ws_moveit2/build/moveit_resources_panda_moveit_config
+[0.542s] Invoked command in '/home/denmann99/ws_moveit2/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description:/opt/ros/foxy /usr/bin/cmake /home/denmann99/ws_moveit2/src/moveit_resources/panda_moveit_config -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config
+[0.543s] Invoking command in '/home/denmann99/ws_moveit2/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description:/opt/ros/foxy /usr/bin/cmake --build /home/denmann99/ws_moveit2/build/moveit_resources_panda_moveit_config -- -j12 -l12
+[0.568s] Invoked command in '/home/denmann99/ws_moveit2/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description:/opt/ros/foxy /usr/bin/cmake --build /home/denmann99/ws_moveit2/build/moveit_resources_panda_moveit_config -- -j12 -l12
+[0.582s] Invoking command in '/home/denmann99/ws_moveit2/build/moveit_resources_panda_moveit_config': AMENT_PREFIX_PATH=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description:/opt/ros/foxy /usr/bin/cmake --install /home/denmann99/ws_moveit2/build/moveit_resources_panda_moveit_config
+[0.588s] -- Install configuration: "Release"
+[0.588s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/package_run_dependencies/moveit_resources_panda_moveit_config
+[0.588s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/parent_prefix_path/moveit_resources_panda_moveit_config
+[0.588s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/ament_prefix_path.sh
+[0.588s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/ament_prefix_path.dsv
+[0.588s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/path.sh
+[0.588s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/environment/path.dsv
+[0.588s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.bash
+[0.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.sh
+[0.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.zsh
+[0.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/local_setup.dsv
+[0.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.dsv
+[0.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/ament_index/resource_index/packages/moveit_resources_panda_moveit_config
+[0.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake/moveit_resources_panda_moveit_configConfig.cmake
+[0.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/cmake/moveit_resources_panda_moveit_configConfig-version.cmake
+[0.589s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/package.xml
+[0.590s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch
+[0.591s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit_rviz.launch.py
+[0.591s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/ompl-chomp_planning_pipeline.launch.xml
+[0.592s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/joystick_control.launch
+[0.592s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/panda_moveit.launch
+[0.592s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/planning_pipeline.launch.xml
+[0.592s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/default_warehouse_db.launch
+[0.592s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/stomp_planning_pipeline.launch.xml
+[0.592s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/trajopt_planning_pipeline.launch.xml
+[0.592s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/panda_moveit_sensor_manager.launch.xml
+[0.593s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/run_benchmark_trajopt.launch
+[0.593s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/lerp_planning_pipeline.launch.xml
+[0.593s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/demo_chomp.launch
+[0.593s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit.rviz
+[0.594s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/panda_moveit_controller_manager.launch.xml
+[0.595s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/planning_context.launch
+[0.595s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit_rviz.launch
+[0.595s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/run_benchmark_ompl.launch
+[0.595s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/move_group.launch
+[0.595s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/demo.launch.py
+[0.595s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/fake_moveit_controller_manager.launch.xml
+[0.595s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/warehouse.launch
+[0.595s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/test_environment.launch
+[0.595s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/chomp_planning_pipeline.launch.xml
+[0.595s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/warehouse_settings.launch.xml
+[0.595s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/moveit_empty.rviz
+[0.596s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/sensor_manager.launch.xml
+[0.596s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/trajectory_execution.launch.xml
+[0.596s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/panda_gripper_moveit_controller_manager.launch.xml
+[0.596s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/launch/ompl_planning_pipeline.launch.xml
+[0.596s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config
+[0.596s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_controllers.yaml
+[0.596s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.ros2_control.xacro
+[0.597s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.urdf.xacro
+[0.597s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/initial_positions.yaml
+[0.597s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/fake_controllers.yaml
+[0.597s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm.srdf.xacro
+[0.597s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/ompl_planning.yaml
+[0.597s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/trajopt_planning.yaml
+[0.598s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/joint_limits.yaml
+[0.598s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/kinematics.yaml
+[0.598s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda.srdf
+[0.598s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/sensors_kinect_pointcloud.yaml
+[0.598s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/stomp_planning.yaml
+[0.599s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/sensors_kinect_depthmap.yaml
+[0.599s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/hand.xacro
+[0.599s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_hand.ros2_control.xacro
+[0.599s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/cartesian_limits.yaml
+[0.600s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_ros_controllers.yaml
+[0.600s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm_hand.srdf.xacro
+[0.600s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/chomp_planning.yaml
+[0.600s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_arm.xacro
+[0.600s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/panda_gripper_controllers.yaml
+[0.601s] -- Installing: /home/denmann99/ws_moveit2/install/moveit_resources_panda_moveit_config/share/moveit_resources_panda_moveit_config/config/lerp_planning.yaml
+[0.601s] Invoked command in '/home/denmann99/ws_moveit2/build/moveit_resources_panda_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/denmann99/ws_moveit2/install/moveit_resources_panda_description:/opt/ros/foxy /usr/bin/cmake --install /home/denmann99/ws_moveit2/build/moveit_resources_panda_moveit_config
